@@ -4,6 +4,8 @@ library(dplyr)
 library(stringr)
 library(tidyr)
 library(igraph)
+setwd("C:\Users\serena\COSC421_2025W1")
+getwd()
 
 recipes <- read_csv("food_recipes.csv")
 glimpse(recipes)
